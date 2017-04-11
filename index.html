@@ -8,9 +8,9 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Blog</a></li>
+          <li id="first"><a href="#" onclick="getBig('first')">Home</a></li>
+          <li id="second"><a href="#" onclick="getBig('second')">Profile</a></li>
+          <li id="third"><a href="#" onclick="getBig('third')">Blog</a></li>
         </ul>
       </nav>
     </header>
@@ -93,5 +93,8 @@
           <input type="tel" name="telephone" placeholder="Enter your telephone number">
       </span>
     </footer>
+    <script>function getBig(index){
+      document.getElementById(index).style.width = "33%";
+      }</script>
   </body>
 </html>
