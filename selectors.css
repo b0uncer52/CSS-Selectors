@@ -1,0 +1,57 @@
+<!-- Nav Bar -->
+header {
+	border: 1px solid red;
+}
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background:  black;
+}
+header nav li {
+	float: left;
+	color: black;
+}
+header nav li:hover {background: rgb(40, 40, 40);}
+header nav li a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 12px;
+	text-align: center;
+	color: white;
+}
+
+.disabled {
+	color: grey;
+}
+a .disabled {
+	color: red;
+}
+.active {
+	color: yellow;
+}
+
+.parent div div:first-of-type {
+	color: red;
+}
+.parent div div:last-of-type {
+	color: blue;
+}
+.parent div h4:first-of-type {
+	background-color: red;
+}
+.parent div h4:last-of-type {
+	background-color: blue;
+}
+.grandparent > h4 {
+	border: 1px solid green;
+	border-radius: 10px;
+}
+.promo {
+	color: gold;
+	font-weight: bold;
+}
+input {
+	line-height: 25px;
+}
